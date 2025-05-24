@@ -6,6 +6,7 @@ rate = 0.05
 time = 3               # Time in years
 
 # Calculate simple interest
+
 interest = principal * rate * time
 
 # Print the result

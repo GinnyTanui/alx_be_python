@@ -12,16 +12,16 @@ def main():
         display_menu() 
         choice = input("Enter your choice: ") 
         if choice == "1":
-            item = input("Enter an item you want to add:") 
+            item = input("Enter the item to add: ") 
             shopping_list.append(item) 
-            print(f"item '{item}' added to the shopping list.")
+            print(f"Item '{item}' added to the shopping list.")
         elif choice == "2":
-            item = input("Enter an item you want to remove:") 
+            item = input("Enter the item you want to remove: ") 
             if item in shopping_list:
                 shopping_list.remove(item) 
-                print(f"item '{item}' removed from the shopping list.")
+                print(f"Item '{item}' removed from the shopping list.")
             else:
-                print(f"item '{item}' not found in the shopping list.")
+                print(f"Item '{item}' not found in the shopping list.")
         elif choice == "3":
             print("Shopping List:")
             for idx, item in enumerate(shopping_list, start=1):

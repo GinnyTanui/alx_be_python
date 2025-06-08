@@ -6,7 +6,7 @@ def display_menu():
     print("4. Exit") 
 
 def main():
-    shopping_list = ["Apples", "Bananas", "Carrots"]  # Initial shopping list
+    shopping_list = []  
     print("Welcome to the Shopping List Manager!")
     while True:
         display_menu() 
